@@ -1,6 +1,120 @@
+html{
+    
+    background-image: url(images/black-twill.png), linear-gradient(to bottom left,rgb(137, 230, 235),rgb(55, 148, 209)  );
+    background-attachment: fixed;
+}
 
 body {
 
-    background-color: rgb(48, 178, 238);
+
+
 
 }
+
+.profilepic {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 200px;
+    border: 2px solid rgb(227, 227, 227);
+    margin-top: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.headings {
+    padding-top: 10px;
+    border-top:  2px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1px black;
+    color: white;
+    font-size: 4rem;
+}
+
+p {
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    border-right: 3px solid black;
+    padding-right: 5px;
+    color: white;
+    text-shadow: 1.5px 1.5px 1px black;
+  
+    
+
+}
+
+.topnav {
+    
+    overflow: hidden;
+    margin: auto;
+    
+    
+  }
+  
+  
+
+  .topnav a {
+    border-radius: 10px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: rgb(73, 166, 219);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+ }
+
+
+.row{
+    display: flex;  
+
+}
+
+  .aboutme {
+    float: left;
+    width: 50%;
+    
+
+  }
+
+  .pictures {
+
+    margin-left: 1em;
+    margin-top: 2em;
+
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list{
+
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10rem;
+    text-shadow: 1.5px 1.5px 1px black;
+   
+
+  }
